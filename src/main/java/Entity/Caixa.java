@@ -1,6 +1,7 @@
 package Entity;
 
 import java.util.HashMap;
+import Enum.CedulasEnum;
 
 public class Caixa {
 
@@ -9,8 +10,6 @@ public class Caixa {
     public Caixa() {
 
     }
-
-
 
     public int getValorParaSaque() {
         return valorParaSaque;
@@ -22,19 +21,18 @@ public class Caixa {
 
     public HashMap<Integer, Integer> sacar(int valorSolicitado) throws NullPointerException{
 
-        HashMap<Integer, Integer> retorno = new HashMap<Integer, Integer>();
-        if(this.isUmaCedula(valorSolicitado)){
+                   HashMap<Integer, Integer> retorno = new HashMap<Integer, Integer>();
+            if(this.isUmaCedula(valorSolicitado)){
 
-            retorno.put(valorSolicitado, 1);
+                retorno.put(valorSolicitado, 1);
 
-        }else if(valorSolicitado == 1 || valorSolicitado == 3) {
+            }else if(valorSolicitado == 1 || valorSolicitado == 3) {
 
-            throw new NullPointerException();
+                throw new NullPointerException();
 
-        }else{
+            }else{
 
-           retorno = getColecaoQuantidadeCedulas(valorSolicitado);
-
+                retorno = getColecaoQuantidadeCedulas(valorSolicitado);
         }
 
         return retorno;
@@ -47,76 +45,76 @@ public class Caixa {
 
         while (valorSolicitado > 0){
 
-            if(valorSolicitado%100 >= 0 && valorSolicitado%100 != valorSolicitado) {
+            if(valorSolicitado%CedulasEnum.CEDULA_CEM.getValorNota() >= 0 && valorSolicitado%CedulasEnum.CEDULA_CEM.getValorNota() != valorSolicitado) {
 
-                valorSolicitado = valorSolicitado - 100;
+                valorSolicitado = valorSolicitado - CedulasEnum.CEDULA_CEM.getValorNota();
 
-                if(!retorno.containsKey(100)) {
-                    retorno.put(100, 1);
+                if(!retorno.containsKey(CedulasEnum.CEDULA_CEM.getValorNota())) {
+                    retorno.put(CedulasEnum.CEDULA_CEM.getValorNota(), 1);
                 }else {
-                    qtdCedula = retorno.get(100);
+                    qtdCedula = retorno.get(CedulasEnum.CEDULA_CEM.getValorNota());
                     qtdCedula++;
-                    retorno.put(100, qtdCedula);
+                    retorno.put(CedulasEnum.CEDULA_CEM.getValorNota(), qtdCedula);
                 }
 
-            }else if(valorSolicitado%50 >= 0 && valorSolicitado%50 != valorSolicitado) {
+            }else if(valorSolicitado%CedulasEnum.CEDULA_CINQUENTA.getValorNota() >= 0 && valorSolicitado%CedulasEnum.CEDULA_CINQUENTA.getValorNota() != valorSolicitado) {
 
-                valorSolicitado = valorSolicitado - 50;
+                valorSolicitado = valorSolicitado - CedulasEnum.CEDULA_CINQUENTA.getValorNota();
 
-                if(!retorno.containsKey(50)) {
-                    retorno.put(50, 1);
+                if(!retorno.containsKey(CedulasEnum.CEDULA_CINQUENTA.getValorNota())) {
+                    retorno.put(CedulasEnum.CEDULA_CINQUENTA.getValorNota(), 1);
                 }else {
 
-                    qtdCedula = retorno.get(50);
+                    qtdCedula = retorno.get(CedulasEnum.CEDULA_CINQUENTA.getValorNota());
                     qtdCedula++;
-                    retorno.put(50, qtdCedula);
+                    retorno.put(CedulasEnum.CEDULA_CINQUENTA.getValorNota(), qtdCedula);
                 }
 
-            }else if(valorSolicitado%20 >= 0 && valorSolicitado%20 != valorSolicitado) {
+            }else if(valorSolicitado%CedulasEnum.CEDULA_VINTE.getValorNota() >= 0 && valorSolicitado%CedulasEnum.CEDULA_VINTE.getValorNota() != valorSolicitado) {
 
-                valorSolicitado = valorSolicitado - 20;
+                valorSolicitado = valorSolicitado - CedulasEnum.CEDULA_VINTE.getValorNota();
 
-                if(!retorno.containsKey(20)) {
-                    retorno.put(20, 1);
+                if(!retorno.containsKey(CedulasEnum.CEDULA_VINTE.getValorNota())) {
+                    retorno.put(CedulasEnum.CEDULA_VINTE.getValorNota(), 1);
                 }else {
-                    qtdCedula = retorno.get(20);
+                    qtdCedula = retorno.get(CedulasEnum.CEDULA_VINTE.getValorNota());
                     qtdCedula++;
-                    retorno.put(20, qtdCedula);
+                    retorno.put(CedulasEnum.CEDULA_VINTE.getValorNota(), qtdCedula);
                 }
 
-            }else if(valorSolicitado%10 >= 0 && valorSolicitado%10 != valorSolicitado) {
+            }else if(valorSolicitado%CedulasEnum.CEDULA_DEZ.getValorNota() >= 0 && valorSolicitado%CedulasEnum.CEDULA_DEZ.getValorNota() != valorSolicitado) {
 
-                valorSolicitado = valorSolicitado - 10;
+                valorSolicitado = valorSolicitado - CedulasEnum.CEDULA_DEZ.getValorNota();
 
-                if(!retorno.containsKey(10)) {
-                    retorno.put(10, 1);
+                if(!retorno.containsKey(CedulasEnum.CEDULA_DEZ.getValorNota())) {
+                    retorno.put(CedulasEnum.CEDULA_DEZ.getValorNota(), 1);
                 }else {
-                    qtdCedula = retorno.get(10);
+                    qtdCedula = retorno.get(CedulasEnum.CEDULA_DEZ.getValorNota());
                     qtdCedula++;
-                    retorno.put(10, qtdCedula);
+                    retorno.put(CedulasEnum.CEDULA_DEZ.getValorNota(), qtdCedula);
                 }
 
-            }else if(valorSolicitado%5 >=0 && valorSolicitado%10 != valorSolicitado) {
+            }else if(valorSolicitado%CedulasEnum.CEDULA_CINCO.getValorNota() >=0 && valorSolicitado%CedulasEnum.CEDULA_CINCO.getValorNota() != valorSolicitado && valorSolicitado%CedulasEnum.CEDULA_CINCO.getValorNota() >1 ) {
 
-                valorSolicitado = valorSolicitado - 5;
+                valorSolicitado = valorSolicitado - CedulasEnum.CEDULA_DEZ.getValorNota();
 
-                if(!retorno.containsKey(5)) {
-                    retorno.put(5, 1);
+                if(!retorno.containsKey(CedulasEnum.CEDULA_DEZ.getValorNota())) {
+                    retorno.put(CedulasEnum.CEDULA_DEZ.getValorNota(), 1);
                 }else {
-                    qtdCedula = retorno.get(5);
+                    qtdCedula = retorno.get(CedulasEnum.CEDULA_DEZ.getValorNota());
                     qtdCedula++;
-                    retorno.put(5, qtdCedula);
+                    retorno.put(CedulasEnum.CEDULA_DEZ.getValorNota(), qtdCedula);
                 }
-            }else if(valorSolicitado%2 >= 0 && valorSolicitado%2 != valorSolicitado) {
+            }else if(valorSolicitado%CedulasEnum.CEDULA_DOIS.getValorNota() >= 0 && valorSolicitado%CedulasEnum.CEDULA_DOIS.getValorNota() != valorSolicitado) {
 
-                valorSolicitado = valorSolicitado - 2;
+                valorSolicitado = valorSolicitado - CedulasEnum.CEDULA_DOIS.getValorNota();
 
-                if(!retorno.containsKey(2)) {
-                    retorno.put(2, 1);
+                if(!retorno.containsKey(CedulasEnum.CEDULA_DOIS.getValorNota())) {
+                    retorno.put(CedulasEnum.CEDULA_DOIS.getValorNota(), 1);
                 }else {
-                    qtdCedula = retorno.get(2);
+                    qtdCedula = retorno.get(CedulasEnum.CEDULA_DOIS.getValorNota());
                     qtdCedula++;
-                    retorno.put(2, qtdCedula);
+                    retorno.put(CedulasEnum.CEDULA_DOIS.getValorNota(), qtdCedula);
                 }
             }else{
 
@@ -138,14 +136,13 @@ public class Caixa {
     private boolean isUmaCedula(int valorSolicitado){
         boolean retorno = false;
 
-        if(valorSolicitado == 2
-                || valorSolicitado == 5
-                    || valorSolicitado == 10
-                        || valorSolicitado == 20
-                            || valorSolicitado == 50
-                                || valorSolicitado == 100){
+        if(valorSolicitado == CedulasEnum.CEDULA_DOIS.getValorNota()
+                || valorSolicitado == CedulasEnum.CEDULA_CINCO.getValorNota()
+                    || valorSolicitado == CedulasEnum.CEDULA_DEZ.getValorNota()
+                        || valorSolicitado == CedulasEnum.CEDULA_VINTE.getValorNota()
+                            || valorSolicitado == CedulasEnum.CEDULA_CINQUENTA.getValorNota()
+                                || valorSolicitado == CedulasEnum.CEDULA_CEM.getValorNota()){
             retorno = true;
-
         }
         return retorno;
     }
