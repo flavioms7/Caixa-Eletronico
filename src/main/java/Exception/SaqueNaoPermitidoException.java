@@ -1,6 +1,6 @@
 package Exception;
 
-public class SaqueNaoPermitidoException extends Exception {
+public class SaqueNaoPermitidoException extends RuntimeException {
 
     /**
      * -

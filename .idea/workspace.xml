@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d66bf2-f20a-4c97-bcc5-d19e59ba1bbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enum/CedulasEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Entity/Caixa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Entity/Caixa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Entity/Caixa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/Caixa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enum/CedulasEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enum/CedulasEnum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -63,38 +60,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Caixa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="106" column="69" selection-start-line="106" selection-start-column="69" selection-end-line="106" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#497#515#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Enum/CedulasEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-              </folding>
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+            <state relative-caret-position="309">
+              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,17 +81,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Exception/SaqueNaoPermitidoException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="74" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="74" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CaixaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2907">
-              <caret line="171" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="2312">
+              <caret line="136" column="58" selection-start-line="136" selection-start-column="58" selection-end-line="136" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,6 +117,12 @@
       <find>10</find>
       <find>5</find>
       <find>2</find>
+      <find>isUmaCedula</find>
+      <find>isPreencherColecao</find>
+      <find>setValorParaSaque</find>
+      <find>valorParaSaque</find>
+      <find>NUl</find>
+      <find>null</find>
     </findStrings>
     <replaceStrings>
       <replace>CedulasEnum.CEDULA_CEM.getValorNota()</replace>
@@ -158,13 +140,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/CaixaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Exception/SaqueNaoPermitidoException.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/Enum/EnumCedulas.java" />
         <option value="$PROJECT_DIR$/src/main/java/Enum/CedulasEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Principal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exception/SaqueNaoPermitidoException.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entity/Caixa.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CaixaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Principal.java" />
       </list>
     </option>
   </component>
@@ -180,8 +162,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Course" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,11 +177,23 @@
               <item name="CaixaEletronicoApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CaixaEletronicoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CaixaEletronicoApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CaixaEletronicoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CaixaEletronicoApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CaixaTest">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
       <module name="CaixaEletronicoApp.main" />
@@ -290,9 +285,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="JUnit.CaixaTest" />
         <item itemvalue="JUnit.CaixaTest.aoTentarSacarSeisReaisDeveSerRetornadoColecaoComCedulaEQuantidade" />
-        <item itemvalue="Application.Principal" />
         <item itemvalue="JUnit.CaixaTest.aoTentarSacarQuatroReaisDeveSerRetornadoColecaoComCedulaEQuantidade" />
         <item itemvalue="Gradle.CaixaTest.aoTentarSacarQuatroReaisDeveSerRetornadoColecaoComCedulaEQuantidade" />
       </list>
@@ -312,18 +307,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CaixaTest_aoTentarSacarQuatroReaisDeveSerRetornadoColecaoComCedulaEQuantidade - 2019.07.30 at 16h 24m 42s.xml">
-      <configuration name="CaixaTest.aoTentarSacarQuatroReaisDeveSerRetornadoColecaoComCedulaEQuantidade" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CaixaTest_aoTentarSacarQuatroReaisDeveSerRetornadoColecaoComCedulaEQuantidade - 2019.07.30 at 16h 24m 49s.xml">
-      <configuration name="CaixaTest.aoTentarSacarQuatroReaisDeveSerRetornadoColecaoComCedulaEQuantidade" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CaixaTest_aoTentarSacarQuatroReaisDeveSerRetornadoColecaoComCedulaEQuantidade - 2019.07.30 at 16h 24m 55s.xml">
-      <configuration name="CaixaTest.aoTentarSacarQuatroReaisDeveSerRetornadoColecaoComCedulaEQuantidade" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CaixaTest_aoTentarSacarSeisReaisDeveSerRetornadoColecaoComCedulaEQuantidade - 2019.07.30 at 17h 46m 58s.xml">
-      <configuration name="CaixaTest.aoTentarSacarSeisReaisDeveSerRetornadoColecaoComCedulaEQuantidade" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CaixaTest - 2019.07.30 at 17h 47m 07s.xml">
       <configuration name="CaixaTest" configurationId="JUnit" />
     </history-entry>
@@ -342,6 +325,18 @@
     <history-entry file="CaixaTest - 2019.07.30 at 18h 04m 39s.xml">
       <configuration name="CaixaTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CaixaTest_aoTentarSacarSeisReaisDeveSerRetornadoColecaoComCedulaEQuantidade - 2019.07.30 at 18h 06m 05s.xml">
+      <configuration name="CaixaTest.aoTentarSacarSeisReaisDeveSerRetornadoColecaoComCedulaEQuantidade" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CaixaTest - 2019.07.30 at 18h 06m 11s.xml">
+      <configuration name="CaixaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CaixaTest - 2019.07.30 at 18h 09m 22s.xml">
+      <configuration name="CaixaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CaixaTest - 2019.07.31 at 10h 03m 14s.xml">
+      <configuration name="CaixaTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -349,7 +344,7 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.20255864" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.20255864" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.1928494" />
@@ -398,16 +393,6 @@
     </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Entity/Caixa.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="numeroNotas50" />
@@ -509,13 +494,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exception.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -523,53 +502,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Principal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Exception/SaqueNaoPermitidoException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="74" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="74" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Enum/CedulasEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="221">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CaixaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="136" column="58" selection-start-line="136" selection-start-column="58" selection-end-line="136" selection-end-column="58" />
           <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Caixa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="106" column="69" selection-start-line="106" selection-start-column="69" selection-end-line="106" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#497#515#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CaixaTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2907">
-          <caret line="171" selection-start-line="171" selection-end-line="171" />
+        <state relative-caret-position="309">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

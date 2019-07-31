@@ -2,6 +2,7 @@ import Entity.Caixa;
 
 import java.util.HashMap;
 import java.util.Scanner;
+import Exception.SaqueNaoPermitidoException;
 
 public class Principal {
 
@@ -32,7 +33,7 @@ public class Principal {
                 try {
                     Caixa caixa = new Caixa();
                     colecaoResultado = caixa.sacar(valorSaque);
-                }catch (NullPointerException e){
+                }catch (SaqueNaoPermitidoException e){
 
                     System.out.println("Saque não permitido. Tente Novamente");
                 }

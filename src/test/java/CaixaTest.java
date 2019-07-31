@@ -2,6 +2,7 @@ import Entity.Caixa;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import Exception.SaqueNaoPermitidoException;
 
 import java.util.HashMap;
 
@@ -15,7 +16,7 @@ public class CaixaTest{
         Caixa caixa = new Caixa();
         int valorSacado = 1;
 
-        Assertions.assertThrows(NullPointerException.class, () -> caixa.sacar(valorSacado));
+        Assertions.assertThrows(SaqueNaoPermitidoException.class, () -> caixa.sacar(valorSacado));
     }
 
     @Test
@@ -133,7 +134,7 @@ public class CaixaTest{
         Caixa caixa = new Caixa();
         int valorSacado = 3;
 
-        Assertions.assertThrows(NullPointerException.class, () -> caixa.sacar(valorSacado));
+        Assertions.assertThrows(SaqueNaoPermitidoException.class, () -> caixa.sacar(valorSacado));
     }
 
     @Test
